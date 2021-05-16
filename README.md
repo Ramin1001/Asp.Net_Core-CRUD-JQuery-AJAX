@@ -1,1 +1,1 @@
-# Asp.Net_Core-CRUD-JQuery-AJAX
+# Mini Bank App (.NET Core/CRUD/jQuery/AJAX)
