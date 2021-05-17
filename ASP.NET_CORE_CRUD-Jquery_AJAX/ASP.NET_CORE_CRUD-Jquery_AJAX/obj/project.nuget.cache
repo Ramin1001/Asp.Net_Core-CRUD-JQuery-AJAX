@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8sD7ZbbLumTGBMKNEjIAWWrWXqt0kCYvBtiCL41EhkyJR9NHkEVJlH4eUNRWCpdbxTRrtn9/LJARVmfWzy1wqg==",
+  "dgSpecHash": "NQC/5n+pAnnpaPx7P6CIAHL277r3TgGYZJ2XfjTuxn2kj9BThaEeVpQ4jQ8b5eed1WV2g4qBMRJ8ckE1ma4xug==",
   "success": true,
-  "projectFilePath": "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX.csproj",
+  "projectFilePath": "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX(author-indian)\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAMO1378\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\RAMO1378\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

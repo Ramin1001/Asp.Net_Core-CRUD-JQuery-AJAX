@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX.csproj": {}
+    "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX(author-indian)\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX.csproj": {}
   },
   "projects": {
-    "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX.csproj": {
+    "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX(author-indian)\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX.csproj",
+        "projectUniqueName": "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX(author-indian)\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX.csproj",
         "projectName": "ASP.NET_CORE_CRUD-Jquery_AJAX",
-        "projectPath": "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX.csproj",
+        "projectPath": "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX(author-indian)\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX.csproj",
         "packagesPath": "C:\\Users\\RAMO1378\\.nuget\\packages\\",
-        "outputPath": "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\obj\\",
+        "outputPath": "D:\\Yazilmis proqramlar\\ASP.NET Core_CRUD_JQuery_vs_AJAX(author-indian)\\ASP.NET_CORE_CRUD-Jquery_AJAX\\ASP.NET_CORE_CRUD-Jquery_AJAX\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
