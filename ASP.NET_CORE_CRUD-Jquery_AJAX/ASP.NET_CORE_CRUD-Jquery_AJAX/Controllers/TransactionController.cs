@@ -27,6 +27,7 @@ namespace ASP.NET_CORE_CRUD_Jquery_AJAX.Controllers
        
 
         // GET: Transaction/AddOrEdit
+        [NoDirectAccess] // added method in Helper.cs
         public async Task<IActionResult> AddOrEdit(int id=0)
         {
             if (id == 0)
@@ -58,6 +59,7 @@ namespace ASP.NET_CORE_CRUD_Jquery_AJAX.Controllers
 
                 if (id == 0)
                 {
+                    transactionModel.Date = DateTime.Now;
                     _context.Add(transactionModel);
                     await _context.SaveChangesAsync();
                 }
@@ -65,6 +67,7 @@ namespace ASP.NET_CORE_CRUD_Jquery_AJAX.Controllers
                 {
                     try
                     {
+                        transactionModel.Date = DateTime.Now;
                         _context.Update(transactionModel);
                         await _context.SaveChangesAsync();
                     }
@@ -89,23 +92,7 @@ namespace ASP.NET_CORE_CRUD_Jquery_AJAX.Controllers
 
 
 
-        // GET: Transaction/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var transactionModel = await _context.Transactions
-                .FirstOrDefaultAsync(m => m.TransactionId == id);
-            if (transactionModel == null)
-            {
-                return NotFound();
-            }
-
-            return View(transactionModel);
-        }
+       
 
         // POST: Transaction/Delete/5
         [HttpPost, ActionName("Delete")]
@@ -115,7 +102,7 @@ namespace ASP.NET_CORE_CRUD_Jquery_AJAX.Controllers
             var transactionModel = await _context.Transactions.FindAsync(id);
             _context.Transactions.Remove(transactionModel);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return Json(new { html = Helper.RenderRazorViewToString(this, "_ViewAll", _context.Transactions.ToList()) });
         }
 
         private bool TransactionModelExists(int id)

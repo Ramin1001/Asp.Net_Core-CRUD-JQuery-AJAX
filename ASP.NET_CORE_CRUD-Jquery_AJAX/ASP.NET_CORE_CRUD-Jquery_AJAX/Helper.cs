@@ -7,7 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using System.IO;
-
+using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.AspNetCore.Http;
 
 namespace ASP.NET_CORE_CRUD_Jquery_AJAX
 {
@@ -35,4 +36,18 @@ namespace ASP.NET_CORE_CRUD_Jquery_AJAX
             }
         }
     }
+
+    // for preventing direct access to page
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
+    public class NoDirectAccessAttribute : ActionFilterAttribute
+    {
+        public override void OnActionExecuting(ActionExecutingContext filterContext)
+        {
+            if (filterContext.HttpContext.Request.GetTypedHeaders().Referer == null || filterContext.HttpContext.Request.GetTypedHeaders().Host.Host.ToString() != filterContext.HttpContext.Request.GetTypedHeaders().Referer.Host.ToString())
+            {
+                filterContext.HttpContext.Response.Redirect("/");
+            }
+        }
+    }
+
 }

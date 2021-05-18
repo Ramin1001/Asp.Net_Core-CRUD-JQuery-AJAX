@@ -15,6 +15,7 @@ namespace ASP.NET_CORE_CRUD_Jquery_AJAX.Models
         [Required(ErrorMessage ="This field is required.")]
         [Column(TypeName ="nvarchar(12)")]
         [Display(Name = "Account Number")]
+        [StringLength(12)]
         public string AccountNumber { get; set; }
 
         [Required(ErrorMessage = "This field is required.")]
@@ -30,12 +31,14 @@ namespace ASP.NET_CORE_CRUD_Jquery_AJAX.Models
         [Required(ErrorMessage = "This field is required.")]
         [Column(TypeName = "nvarchar(11)")]
         [Display(Name = "SWIFT Code")]
+        [StringLength(11)]
         public string SWIFTCode { get; set; }
 
         [Required(ErrorMessage = "This field is required.")]
         [Display(Name = "Amount")]
         public int Amount { get; set; }
 
+        [DisplayFormat(DataFormatString ="{0:dd/MM/yyyy}")]
         public DateTime Date { get; set; }
     }
 }
